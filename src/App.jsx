@@ -1,11 +1,10 @@
 import React from "react"
-import Nav from './components/Nav'
-import Productos from '/components/Productos'
+import carrito from './assets/img/carrito.png'
+import Nav from "./components/Nav"
 
 function App() {
   return (
-    <Nav/>,
-    <Productos/>
+    <Nav inicio="inicio" nosotros="nosotros" productos="productos" carrito={carrito}/>
   )
 }
 
